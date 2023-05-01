@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+  main {
+    background-color: orange;
+    overflow-y: auto;
+    height: calc(100vh - 100px);
+  }
+  
+  .main-container {
+    max-width: 1920px;
+    margin: auto;
+    border: none;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .header img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .content p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  footer {
+    max-width: 1920px;
+    height: 80px;
+    font-weight: bold;
+  }
